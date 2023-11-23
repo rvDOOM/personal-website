@@ -1,0 +1,43 @@
+.footer {
+  display: grid;
+  grid-row: 2px 10px 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  font-size: 9px;
+  border: none;
+}
+
+.footer .top {
+  height: 2px;
+  border-top: 2px solid transparent;
+  background: linear-gradient(to top, black, transparent);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  margin-bottom: -2px;
+}
+
+.footer .bottom {
+}
+
+
+.footer div {
+  text-align: center;
+  background-color: white;
+}
+
+.footer img {
+  height: 10px;
+}
+
+.footer button {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

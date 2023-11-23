@@ -1,0 +1,21 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-page img {
+  border-color: black;
+  height: 250px;
+  width: 250px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 200px;
+  object-fit: cover;
+}
+
+.home-page .text {
+  margin-top: 20px;
+  font-family: 'Space Grotesk';
+  font-size: 30px;
+}
