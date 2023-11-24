@@ -5,7 +5,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 40px;
+  height: 35px;
   font-size: 9px;
   border: none;
 }
@@ -20,24 +20,21 @@
   margin-bottom: -2px;
 }
 
-.footer .bottom {
-}
-
-
 .footer div {
   text-align: center;
   background-color: white;
+  border: none;
 }
 
 .footer img {
-  height: 10px;
-}
-
-.footer button {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-top: 5px;
+  height: 10px;
   border: none;
   background-color: transparent;
+}
+
+.footer a {
   cursor: pointer;
 }
