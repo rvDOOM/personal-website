@@ -18,4 +18,12 @@
   margin-top: 20px;
   font-family: 'Space Grotesk';
   font-size: 30px;
+  text-align: center;
+}
+
+.home-page .subtext {
+  margin-top: 20px;
+  font-family: 'Space Grotesk';
+  font-size: 13px;
+  text-align: left;
 }

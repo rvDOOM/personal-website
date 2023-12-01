@@ -1,13 +1,14 @@
 .footer {
-  display: grid;
-  grid-row: 2px 10px 10px;
+  display: flex;
+  grid-template-rows: auto auto auto;
+  flex-direction: column;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 35px;
   font-size: 9px;
   border: none;
+  text-align: center;
 }
 
 .footer .top {
@@ -17,24 +18,33 @@
   background-position: 0 100%;
   background-size: 100% 2px;
   background-repeat: no-repeat;
-  margin-bottom: -2px;
 }
 
-.footer div {
-  text-align: center;
+.footer .bottom {
   background-color: white;
-  border: none;
 }
 
-.footer img {
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  height: 10px;
-  border: none;
-  background-color: transparent;
+
+.footer .footer-social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  width: auto;
 }
+
+.footer .social-icon {
+  height: 15px;
+  width: 15px;
+  padding: 10px;
+  cursor: pointer;
+  pointer-events: none;
+  filter: 0;
+}
+
 
 .footer a {
   cursor: pointer;
 }
+
+
